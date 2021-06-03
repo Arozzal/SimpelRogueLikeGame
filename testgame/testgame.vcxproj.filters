@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Mobs">
+      <UniqueIdentifier>{be7a2bb5-2983-444c-9d3c-8bd5cc343fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Blocks">
+      <UniqueIdentifier>{e3ec78d8-352e-479b-bcb1-0b0ebe394c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Mobs">
+      <UniqueIdentifier>{8a65293e-9af6-4205-b6c1-74d36bb99da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Blocks">
+      <UniqueIdentifier>{01e130f5-e565-44ec-b4f4-24854477924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GUI">
+      <UniqueIdentifier>{9a64b66b-01f4-4cb0-a7ac-5c3ff821f620}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Maploader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ListManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Walker.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Finder.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Berserker.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTower.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Quelldateien\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Blood.cpp">
+      <Filter>Quelldateien\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Quelldateien\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyblock.cpp">
+      <Filter>Quelldateien\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTrigger.cpp">
+      <Filter>Quelldateien\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigFile.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Maploader.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ListManager.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Berserker.hpp">
+      <Filter>Headerdateien\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.hpp">
+      <Filter>Headerdateien\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Finder.hpp">
+      <Filter>Headerdateien\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Walker.hpp">
+      <Filter>Headerdateien\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob.hpp">
+      <Filter>Headerdateien\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTower.hpp">
+      <Filter>Headerdateien\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.hpp">
+      <Filter>Headerdateien\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyblock.hpp">
+      <Filter>Headerdateien\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTrigger.hpp">
+      <Filter>Headerdateien\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Blood.hpp">
+      <Filter>Headerdateien\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiObj.hpp">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.hpp">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Items.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFile.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="testgame.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font.ttf">
+      <Filter>Ressourcendateien</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
